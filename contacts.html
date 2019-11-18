@@ -2,20 +2,41 @@
 <html>
 
 <head>
-  <!-- Required meta tags -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
 
-  <link href="https://fonts.googleapis.com/css?family=Italiana|Playfair+Display:400,700&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italiana|Playfair+Display:400,700&display=swap"
+        rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
-  <link rel="stylesheet" href="./public/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+    <link rel="stylesheet" href="./public/styles.css">
 
-  <title>Azienda Agricola Guerci</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <title>Azienda Agricola Guerci</title>
 
 </head>
 
@@ -23,12 +44,12 @@
     <h2 class="ui block header">
         <div id="companyName">
             AZIENDA AGRICOLA GUERCI
+            <div> <img class="ui avatar image" src="./public/Images/newlogo.jpg" id="logo"></div>
         </div>
-        <img class="ui avatar image" src="./public/Images/newlogo.jpg" id="logo">
     </h2>
 
     <div class="Navbar">
-        <div class="Navbar__Link Navbar__Link-brand"> <a href="./index.html">
+        <div class="Navbar__Link Navbar__Link-brand"> <a href="./index.html"> <i class="home icon"></i>
                 Home </a> </div>
         <div class="Navbar__Link Navbar__Link-toggle">
             <i class="align justify icon"></i>
@@ -57,15 +78,49 @@
         </nav>
     </div>
 
+    <hr>
 
-  <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAb5xLE5s_8mtKKHem7bLEFuYMoCuJTAY0
+    <div class="grid_container">
+
+        <div id="contacts" class="grid_item">
+            <p>Contatti</p>
+            <div>
+                <i class="at icon"></i>
+            </div>
+            <div>
+                    <i class="phone icon"></i>
+            </div>
+            <div>
+                    <i class="mobile icon"></i>
+            </div>
+            <div>
+                    <i class="envelope open icon"></i>
+            </div>
+        </div>
+
+        <div class="grid_item">
+            <iframe id="map" width="500" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAb5xLE5s_8mtKKHem7bLEFuYMoCuJTAY0
         &q=Azienda+Guerci,02010+Cittareale+RI,Italia" allowfullscreen>
-  </iframe>
+            </iframe>
+        </div>
 
-  <div>
-      <a href="./index.html"Go back to home page</a>
-  </div>
 
+    </div>
+
+    <script src="guerci.js"></script>
 </body>
+
+<footer>
+        <div class="container">
+            <p class="text-muted">&copy; Azienda Agricola Guerci 2019 </p>
+            <span>
+                    <a href="#">Home</a>  |
+                    <a href="./contacts.html"> Contatti</a>  |
+                    <a href="#"> <i class="facebook icon"></i> </a>  |
+                    <a href="#"> <i class="twitter icon"></i> </a>  |
+                    <a href="#""> <i class=" linkedin icon"></i> </a>
+            </span> 
+        </div>
+    </footer>
 
 </html>

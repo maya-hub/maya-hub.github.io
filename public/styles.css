@@ -4,19 +4,25 @@ font-weight: 100;
 font-size: 1.2rem;
 }
 
-h2.ui.header {
-  margin-bottom: auto;
-  text-align: center;
-  font-family: 'Italiana', 'Playfair Display', serif;
-  font-size: 3rem;
-}
 
 .ui.block.header {
-  background: none;
+  margin-bottom: auto;
+  text-align: center;
+  background-color: #332A7F;
+  height: 180px;
+}
+
+#companyName {
+  font-size: 3rem;
+  padding-bottom: 30px;
+  color: #fff;
+  font-family: 'Italiana', 'Playfair Display', serif;
 }
 
 #logo {
   width: 10rem;
+  height: auto;
+  margin-top: 15px;
 }
 
 h3 {
@@ -38,11 +44,10 @@ main {
 img {
   height: auto;
    width: 45rem;
-   border: 1px solid #e6e6e6;
 }
    
 .entry-header {
-  color: #25323f;
+  color: #393186;
   text-decoration: underline;
   font-style: italic;
   font-weight: bold;
@@ -58,16 +63,26 @@ img {
 /* MOBILE */
 
 @media screen and (max-width: 811px) {
-  #logo {
-    max-height: 4rem;
-    width:auto;
+
+   .ui.block.header {
+    height: 130px;
     max-width: 100%;
+   text-align: center;
+   margin-bottom: auto;
+   background-color: #332A7F;
+
   }
-  h2.ui.header {
-    max-height: 10rem;
-    width:auto;
-    max-width: 100%;
+
+  #companyName {
     font-size: 2rem;
+    padding-bottom: 30px;
+  
+  }
+
+  #logo {
+    width: 5rem;
+    height: auto;
+    margin-top: 15px;
   }
 
 .entry-content,
@@ -153,14 +168,14 @@ and (max-width : 1023px) {
   .entry-image {
     height: auto;
      max-width:85%;
-     border: 1px solid #e6e6e6;
+     /* border: 1px solid #e6e6e6; */
     padding-bottom: 2rem;
     order: 1;
   } 
   .reverse-order-image {
     height: auto;
      max-width: 85%;
-    border: 1px solid #e6e6e6;
+    /* border: 1px solid #e6e6e6; */
     padding-bottom: 2rem;
    order: 2;   
 }
@@ -192,10 +207,10 @@ and (max-width : 1023px) {
 
 /* NAVBAR  */
 .Navbar {
-  background-color: #25323f;
+  background-color: white;
   display: flex;
   padding: 16px;
-  color: white;
+  color: #332A7F;
 }
 
 .Navbar__Link {
@@ -203,14 +218,14 @@ and (max-width : 1023px) {
 }
 
 .Navbar a:link {
-  color: #9a9999;
+  color: #332A7F;
   text-transform: uppercase;
   }
 a:visited {
-    color: #9a9999;
+    color: #25323f;
     }
 a:hover {
-color: #fff;
+  color: #332A7F;
 }
 
 .Navbar__Items {
@@ -251,7 +266,65 @@ color: #fff;
    } 
 }
 /* NAVBAR END */
-/* Google Map */
-#map {
-  padding: 30px;
+
+/* Contacts page grid & Google Map */
+
+@media only screen and (max-width: 811px) {
+  .grid_container {
+    display: grid;
+  }
+  .grid_item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-width: 500px;
+    height: 300px;
+    text-align: center;
+  }
+  #map {
+    width: 450px;
+    height: 250px
+  }  
+}
+@media only screen and (min-width : 812px) {
+
+  .grid_container {
+    display: grid;
+    align-content: center;
+  }
+  
+  .grid_item {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width: 600px;
+    height: 500px;
+  }
+  #map {
+    width: 550px;
+    height: 450px;
+    /* float: right; */
+  }
+  #contacts {
+    width:550px;
+    height: 450px;
+    text-align: center;
+  }
+}
+
+/* Footer */
+
+footer .container {
+  background-color:  #332A7F;
+  height: 150px;
+  color: #e6e6e6;  
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* footer span {
+  float: right;
+  padding-top: 2rem;
+} */
+
+footer a:visited {
+  color: #e6e6e6;
 }

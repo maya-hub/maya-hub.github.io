@@ -6,3 +6,11 @@ function classToggle() {
   
   document.querySelector('.Navbar__Link-toggle')
     .addEventListener('click', classToggle);
+
+    
+    $('.left.demo.sidebar').first()
+  .sidebar('attach events', '.toggle.button')
+;
+$('.toggle.button')
+  .removeClass('disabled')
+;
