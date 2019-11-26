@@ -14,6 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
     <link rel="stylesheet" href="./public/styles.css">
+    <link rel="stylesheet" href="./public/stylesHeader.css">
+    <link rel="stylesheet" href="./public/nav.css">
+    <link rel="stylesheet" href="./public/contacts.css">
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
@@ -41,12 +44,12 @@
 </head>
 
 <body>
-    <h2 class="ui block header">
-        <div id="companyName">
-            AZIENDA AGRICOLA GUERCI
-            <div> <img class="ui avatar image" src="./public/Images/newlogo.jpg" id="logo"></div>
-        </div>
-    </h2>
+        <header>
+                <div></div>
+                <h2>
+                    <img src="./public/Images/logoNobackground2.png" id="logo">
+                </h2>
+            </header>
 
     <div class="Navbar">
         <div class="Navbar__Link Navbar__Link-brand"> <a href="./index.html"> <i class="home icon"></i>
@@ -78,7 +81,6 @@
         </nav>
     </div>
 
-    <hr>
 
     <div class="grid_container">
 
@@ -98,8 +100,10 @@
             </div>
         </div>
 
+        <hr>
+
         <div class="grid_item">
-            <iframe id="map" width="500" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAb5xLE5s_8mtKKHem7bLEFuYMoCuJTAY0
+            <iframe id="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCT0ON6P1ToMivFeeISJF56HurnHGi2RE4
         &q=Azienda+Guerci,02010+Cittareale+RI,Italia" allowfullscreen>
             </iframe>
         </div>

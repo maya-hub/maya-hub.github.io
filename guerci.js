@@ -8,9 +8,9 @@ function classToggle() {
     .addEventListener('click', classToggle);
 
     
-    $('.left.demo.sidebar').first()
-  .sidebar('attach events', '.toggle.button')
-;
-$('.toggle.button')
-  .removeClass('disabled')
-;
+//     $('.left.demo.sidebar').first()
+//   .sidebar('attach events', '.toggle.button')
+// ;
+// $('.toggle.button')
+//   .removeClass('disabled')
+// ;
