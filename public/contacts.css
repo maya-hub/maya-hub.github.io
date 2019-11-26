@@ -1,6 +1,7 @@
 /* Contacts page grid & Google Map */
 .grid_container {
   display: grid;
+  padding: 15px 0px;
 }
 #contacts {
     text-align: left;

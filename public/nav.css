@@ -1,6 +1,6 @@
 
 .Navbar {
-    background-color: #393184;
+    background-color: #393184; 
     display: flex;
     padding: 16px;
     color: #e6e6e6;
@@ -58,5 +58,4 @@
       cursor: pointer;
      } 
   }
-  
   
