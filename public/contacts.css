@@ -1,6 +1,7 @@
 /* Contacts page grid & Google Map */
 .grid_container {
-  padding-top: 30px;
+  display: grid;
+  padding: 30px 15px;
 }
 #contacts {
     text-align: left;
@@ -14,9 +15,7 @@
 
 
 @media only screen and (max-width: 811px) {
-    .grid_container {
-      display: grid;
-    }
+    
     .grid_item {
       grid-column-start: 1;
       grid-column-end: 2;
@@ -34,18 +33,17 @@
 @media only screen and (min-width : 812px) {
 
     .grid_container {
-      display: grid;
       align-content: center;
     }
     
     .grid_item {
       grid-row-start: 1;
       grid-row-end: 2;
-      max-width: 600px;
+      width: 600px;
       height: 500px;
     }
     #map {
-      width: 550px;
+      width: 580px;
       height: 450px;
       text-align: center;
     }
