@@ -6,7 +6,7 @@
     color: #e6e6e6;
   }
   
-  .Navbar__Link {
+  .Navbar_link {
     padding: 8px;
   }
   
@@ -17,41 +17,44 @@
   a:visited {
       color: whitesmoke;
       }
-  a:hover {
+  .Navbar a:hover {
     color: #e6e6e6;
+    font-weight: 300;
+    border: 2px solid #e6e6e6;
+    padding: 3px;
   }
   
-  .Navbar__Items {
+  .Navbar_items {
     display: flex;
   }
   
-  .Navbar__Items--right {
+  .Navbar_items_right {
     margin-left:auto;
   }
   
-  .Navbar__Link-toggle {
+  .Navbar_link_toggle {
     display: none;
   }
   
   @media only screen and (max-width: 768px) {
-    .Navbar__Items,
+    .Navbar_items,
     .Navbar {
       flex-direction: column;
     }
       
-  .Navbar__Items {
+  .Navbar_items{
       display:none;
     }
       
-  .Navbar__Items--right {
+  .Navbar_items_right {
       margin-left:0;
     }
       
-  .Navbar__ToggleShow {
+  .Navbar_ToggleShow {
       display: flex;
     }
       
-  .Navbar__Link-toggle {
+  .Navbar_link_toggle {
       align-self: flex-end;
       display: initial;
       position: absolute;
