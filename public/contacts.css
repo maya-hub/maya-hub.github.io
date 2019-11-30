@@ -1,56 +1,31 @@
-/* Contacts page grid & Google Map */
-.grid_container {
-  display: grid;
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding: 15px 0px;
 }
+
 #contacts {
-    text-align: left;
-    margin-left: 30px;
+   width: 300px;
+  height: 250px; 
+  padding: 20px 0px;
 }
 
-#contacts p {
-    text-align: center;
-    margin-bottom: 40px;
+p {
+  border-bottom: 1px solid #393184;
+  font-weight: 400;
 }
 
+#map {
+   width: 350px;
+  height: 350px; 
+  margin: auto;
+}
 
-@media only screen and (max-width: 811px) {
-    
-    .grid_item {
-      grid-column-start: 1;
-      grid-column-end: 2;
-      max-width: 450px;
-      height: 300px;
-      
-    }
-    #map {
-      width: 350px;
-      height: 250px;
-      margin-left: 15px;
-      text-align: start;
-    }  
-  }
-
-@media only screen and (min-width : 812px) {
-
-    .grid_container {
-      align-content: center;
-      padding: 30px 15px;
-  }
-    
-    .grid_item {
-      grid-row-start: 1;
-      grid-row-end: 2;
-      width: 600px;
-      height: 500px;
-    }
-    #map {
-      width: 580px;
-      height: 450px;
-      text-align: center;
-    }
-    #contacts {
-      width:550px;
-      height: 450px;
-    }
-  }
+@media (min-width: 1024px){
+ #map {
+   width: 450px;
+   height: 450px;
+ }
+}

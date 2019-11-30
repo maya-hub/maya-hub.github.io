@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
-    <link rel="stylesheet" href="./public/styles.css">
     <link rel="stylesheet" href="./public/stylesHeader.css">
     <link rel="stylesheet" href="./public/nav.css">
-    <link rel="stylesheet" href="./public/contacts.css">
+    <link rel="stylesheet" href="./public/styles.css">
+    <link rel="stylesheet" href="./public/products.css">
+
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
@@ -38,17 +39,15 @@
     <meta name="theme-color" content="#ffffff">
 
 
-
-    <title>Azienda Agricola Guerci</title>
-
+    <title> Azienda Agricola Guerci</title>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="#""> <i class=" linkedin icon"></i> </a>
-            <a href="#"> <i class="twitter icon"></i> </a>
             <a href="#"> <i class="facebook icon"></i> </a>
+            <a href="#"> <i class="twitter icon"></i> </a>
+            <a href="#""> <i class=" linkedin icon"></i> </a>
         </div>
         <h2>
             <img src="./public/Images/logoNobackground2.png" id="logo">
@@ -56,38 +55,29 @@
     </header>
 
     <div class="Navbar">
-        <div class="Navbar_link Navbar_link_brand"> <a href="./index.html"> <i class="home icon"></i>Home </a> </div>
-        <div class="Navbar_link Navbar_link_toggle"><i class="align justify icon"></i></div>
-        <nav class="Navbar_items">
-            <div class="Navbar_link"> <a href="#">Chi Siamo</a></div>
-            <div class="Navbar_link"> <a href="#">L'Azienda</a></div>
-            <div class="Navbar_link"> <a href="#">Settori di Attivita</a></div>
-            <div class="Navbar_link"> <a href="./products.html">Prodotti </a></div>
-        </nav>
-        <nav class="Navbar_items Navbar_items_right">
-            <div class="Navbar_link"> <a href="./news.html">News </a> </div>
-            <div class="Navbar_link"> <a href="./contacts.html"> Contatti </a></div>
-        </nav>
-    </div>
-
-
-    <div class="flex_container">
-
-        <div id="contacts">
-            <p>CONTATTI</p>
-        
-            <div><i class="envelope open icon"></i> Via del Santuario snc – 02010 Cittareale (RI) - Italia</div>
-            <div><i class="at icon"></i> mattatoio_borbona@virgilio.it</div>
-            <div><i class="phone icon"></i>  +39 (368) 313 7909</div>
-            <div><i class="mobile icon"></i> +39 (339) 247 2108 </div>
+            <div class="Navbar_link Navbar_link_brand"> <a href="./index.html"> <i class="home icon"></i>Home </a> </div>
+            <div class="Navbar_link Navbar_link_toggle"><i class="align justify icon"></i></div>
+            <nav class="Navbar_items">
+                <div class="Navbar_link"> <a href="#">Chi Siamo</a></div>
+                <div class="Navbar_link"> <a href="#">L'Azienda</a></div>
+                <div class="Navbar_link"> <a href="#">Settori di Attivita</a></div>
+                <div class="Navbar_link"> <a href="./products.html">Prodotti </a></div>
+            </nav>
+            <nav class="Navbar_items Navbar_items_right">
+                <div class="Navbar_link"> <a href="./news.html">News </a> </div>
+                <div class="Navbar_link"> <a href="./contacts.html"> Contatti </a></div>
+            </nav>
         </div>
 
-        <div>
-                <iframe id="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCT0ON6P1ToMivFeeISJF56HurnHGi2RE4
-                    &q=Azienda+Guerci,02010+Cittareale+RI,Italia" allowfullscreen>
-                </iframe>
-            </div>
-    </div>
+        <h3>Nuestri Prodotti</h3>
+   <section>
+        <div class="videoWrapper">
+                <iframe width="550" height="309" src="https://www.youtube.com/embed/S8wYJsVRtJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+   </section>
+    
+
 
     <footer>
         <div>
@@ -102,9 +92,11 @@
                 <a href="#""> <i class=" linkedin icon"></i> </a>
             </div>
         </div>
+
     </footer>
 
     <script src="guerci.js"></script>
+
 </body>
 
 </html>
