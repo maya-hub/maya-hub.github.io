@@ -11,7 +11,7 @@ header div {
   background-image: -o-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
   background-image: -ms-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
   background-color: #393184; 
-  height: 7vh;
+  height: 50px;
   text-align: right;
   padding: 10px;
 }
