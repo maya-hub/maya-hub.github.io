@@ -1,0 +1,48 @@
+header {
+  padding-bottom: 15px;
+
+}
+
+header div {
+
+  background-image: linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
+  background-image: -webkit-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
+  background-image: -moz-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
+  background-image: -o-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
+  background-image: -ms-linear-gradient(to left, #635691,  #393184,#585462, #5b5b5b);
+  background-color: #393184; 
+  height: 7vh;
+  text-align: right;
+  padding: 10px;
+}
+
+header div a {
+  padding: 5px;
+  color: #e6e6e6;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: white;
+    height: 180px;
+    margin-top: 0;
+  }
+  
+  
+  #logo {
+    width: 14rem;
+    margin-top: 8px;
+  }
+  
+  @media screen and (max-width: 811px) {
+
+    h2 {
+     height: 130px;
+   }
+ 
+   #logo {
+     width: 10rem;
+   }
+  } 

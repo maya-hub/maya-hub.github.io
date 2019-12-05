@@ -12,11 +12,6 @@
   padding: 20px 0px;
 }
 
-p {
-  border-bottom: 1px solid #393184;
-  font-weight: 400;
-}
-
 #map {
    width: 350px;
   height: 350px; 
